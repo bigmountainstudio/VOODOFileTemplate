@@ -65,3 +65,18 @@ struct PersonDO: Identifiable {
 
 # Preview
 ![preview](https://user-images.githubusercontent.com/24855856/125980957-fd972bfe-daac-4ac7-8b3e-a68a96f53210.png)
+
+# You Are In Control
+From here, you can:
+* Delete what you don't need
+* Keep all the parts in one file
+* Break out the parts into separate files
+* Change the template to use any naming convention you want
+
+# Resources
+For more information on this architecture and how to work with data in SwiftUI, take a look at this book: **Working with Data in SwiftUI**.
+
+![working with data in swiftui](https://user-images.githubusercontent.com/24855856/125804293-5f4ec808-220d-41a7-b1ce-9caebc06069e.png)
+
+[Learn More](https://www.bigmountainstudio.com/data)
+
