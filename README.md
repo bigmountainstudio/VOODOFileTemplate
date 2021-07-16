@@ -4,7 +4,9 @@ An Xcode file template that will create your view, observable object and data ob
 ### You can then edit, delete or separate out parts if you want.
 
 # How to Install
-Add the VOODO.xctemplate to this directory: ~/Library/Developer/Xcode/Templates/File Templates/Custom/
+Add the VOODO.xctemplate to this directory: 
+`~/Library/Developer/Xcode/Templates/File Templates/Custom/`
+
 *Note: That full directory might not even exist so you will have to create it.*
 
 # In Xcode
