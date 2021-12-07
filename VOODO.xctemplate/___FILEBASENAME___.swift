@@ -12,7 +12,7 @@ struct ___FILEBASENAMEASIDENTIFIER___View: View {
                 Text(datum.name)
             }
         }
-        .onAppear {
+        .task {
             oo.fetch()
         }
     }
