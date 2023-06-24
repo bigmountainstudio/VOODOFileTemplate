@@ -1,10 +1,11 @@
 # VOODO File Template
 An Xcode file template that will create your view, observable object, and data object all in one file with sample data.
 
-⚠️ Note: This template uses `ObservableObject`.
-👉For the `@Observable` template, go (here)[].
-
 ### You can then edit, delete or separate out parts if you want.
+
+⚠️ Note: This template uses `ObservableObject`.
+
+👉For the `@Observable` template, go [here](https://github.com/bigmountainstudio/VOODOFileTemplate2).
 
 # How to Install
 Add the VOODO.xctemplate to this directory: 
@@ -28,10 +29,8 @@ struct PersonView: View {
     @StateObject private var oo = PersonOO()
     
     var body: some View {
-        VStack {
-            List(oo.data) { datum in
-                Text(datum.name)
-            }
+        List(oo.data) { datum in
+            Text(datum.name)
         }
         .onAppear {
             oo.fetch()
@@ -46,7 +45,6 @@ struct Person_Previews: PreviewProvider {
 }
 
 // Observable Object
-import Combine
 import SwiftUI
 
 class PersonOO: ObservableObject {
