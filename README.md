@@ -1,5 +1,8 @@
 # VOODO File Template
-An Xcode file template that will create your view, observable object and data object all in one file with sample data. 
+An Xcode file template that will create your view, observable object, and data object all in one file with sample data.
+
+⚠️ Note: This template uses `ObservableObject`.
+👉For the `@Observable` template, go (here)[].
 
 ### You can then edit, delete or separate out parts if you want.
 
